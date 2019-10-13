@@ -38,7 +38,7 @@ base : Base connection wire
 //CIRCUIT DIAGRAM FOR ON-BOARD BREADBOARD:
 /*   A    B    C    D    E    ||  F    G    H    I    J
   +--------------------------------------------------------+
-1 |     	   gnd  R4        ||  R4   R5                  |
+1 |     	   gnd  R4    ||  R4   R5                  |
 2 |                 R5   emit ||  emit NPNe                |
 3 |  b                   R1   ||       NPNc           B    |
 4 |       R1             base ||  base NPNb                |
@@ -50,10 +50,10 @@ base : Base connection wire
 10|                 R9   emit ||  emit NPNe                |
 11|  g                   R3   ||       NPNc           G    |
 12|       R3             base ||  base NPNb                |
-13|							  ||                           |
-14|							  ||	      		 B    PIN  |
+13|			      ||                           |
+14|			      ||		 B    PIN  |
 15|  gnd  gnd            GND  ||            R         PIN  |
-16|                           ||       G			  PIN  |
+16|                           ||       G	      PIN  |
 17|                           ||  12V                 PIN  |
   +--------------------------------------------------------+
  */
